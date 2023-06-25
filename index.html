@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>KenaniPix</title>
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Press+Start+2P&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg p-5 mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img
+                    src="https://kenanipix.com/wp-content/uploads/2023/02/cropped-KenaniPix-Png-1536x1180.png"
+                    style="max-width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse rounded" style="font-size: 20px;">
+                <ul class="navbar-nav d-flex justify-content-center rounded mx-auto m-3 mb-2 mb-lg-0 bg-light">
+                    <li class="nav-item ">
+                        <a class="nav-link ms-3" aria-current="page" id="a">Home</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link ms-3" aria-current="page" id="a">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" id="a">About</a>
+                    </li>
+                </ul>
+
+                <div class=" ms-auto" style="font-size: 30px;">
+                    <i class="fa-brands ms-2 fa-square-facebook"></i>
+                    <i class="fa-brands ms-2 fa-square-instagram"></i>
+                    <i class="fa-brands ms-2 fa-square-twitter"></i>
+                    <i class="fa-brands ms-2 fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Section - Profile photo and name -->
+
+    <section class="container-fluid p-5 my-5 text-center" id="first">
+        <div class="container">
+            <!-- Heading - Name -->
+            <h1 class="mt-5" style="font-size: 40px; margin-bottom: -1rem;">Hamid Bawadi</h1>
+
+            <!-- Artist Image - profile pic -->
+            <img class=" img-fluid w-100 "
+            style="max-width: 400px;"
+                src="assets/profile photo.jpeg"
+                alt="">
+
+            <!-- Portfolio -->
+            <h1 class="mb-2" style="font-size: 50px; margin-top: -3rem;">PORTFOLIO</h1>
+
+            <p class="mb-5">Visionary and Creative Photographer</p>
+
+        </div>
+    </section>
+
+    <!-- Second section - About section -->
+    <section class="bg-dark text-light p-5 pt-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="p-2">
+                    <h1> A Little bit<span class="text-warning"> ABOUT ME:</span></h1>
+                    <p class="lead my-4">
+                        <span class="display-6 text-warning">
+                            A journey through the lens -
+                        </span>
+                        <br><br>
+                        Behind every captivating photograph lies a skilled artist with a unique perspective on the
+                        world. And in the realm of visual storytelling, few possess the ability to weave tales as
+                        mesmerizingly as our featured photographer. With an innate passion for capturing life's fleeting
+                        moments, their lens becomes a portal to emotions, experiences, and the sheer beauty that
+                        surrounds us.
+                    </p>
+                    <button class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Contact me</button>
+                </div>
+                <img class="img-fluid rounded shadow d-none d-sm-block"
+                    src="assets/Hamid photo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills and Expertise Section -->
+    <section id="learn" class="p-5">
+        <div class="container text-center">
+            <h1 class=" my-3"> Skills and Expertise:</h1>
+
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md mt-3">
+                    <img class="img-fluid" src="assets/toronto.jpg"
+                        alt="">
+                </div>
+                <div class="col-md p-5">
+
+                    <!-- Photography styles -->
+                    <h2 class="my-2">Photography Styles- </h2>
+
+                    <!-- Photography types -->
+                    <ul class="list-group">
+                        <li class="list-group-item">Landscape Photography</li>
+                        <li class="list-group-item">Conceptual Photography</li>
+                        <li class="list-group-item">Abstract Photography</li>
+                        <li class="list-group-item">Product Photography</li>
+                        <li class="list-group-item">Black and White Photography</li>
+                    </ul>
+
+                    <!-- Photography Skills -->
+                    <h2 class="my-2">Photography Skills- </h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Composion and Framing</li>
+                        <li class="list-group-item">Lighting Control</li>
+                        <li class="list-group-item">Photo editing and Post-Processing</li>
+                        <li class="list-group-item">Subject Communication and Direction</li>
+                        <li class="list-group-item">Creative Eye and Artistic Vision</li>
+                    </ul>
+
+                </div>
+
+                <a class="btn" style="font-size: 25px;">Checkout My Photo GALLERY</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-2 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 Kenanipix.com</p>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Phone Number - +1 (647) 787-2196
+                    email id - admin@kenanipix.com
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap Javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome Kit -->
+    <script src="https://kit.fontawesome.com/f9d226791d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
